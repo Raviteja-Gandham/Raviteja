@@ -5,8 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Learn Hub Navbar</title>
-    <link rel="stylesheet" href="navbar.css">
-    <link rel="stylesheet" href="section1.css">
+   
     <style>
         body {
     font-family: Arial, sans-serif;
@@ -389,9 +388,6 @@ a{
 </div>
 
 <script>
-    
-
-
 document.getElementById('scroll_contact').addEventListener('click', function() {
         document.getElementById('target_contact').scrollIntoView({ behavior: 'smooth' });
     });
